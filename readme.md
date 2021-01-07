@@ -6,5 +6,5 @@
     there is issue ...............
 i had solve this using [Google](https://doc.qt.io/qt-5/layout.html)
 
-
+![Image of Company form ](/Esnaps/Company.png)
 
