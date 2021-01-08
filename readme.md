@@ -38,7 +38,7 @@ From this form i learn the properties of GroupBox like Border and Border Colour
 
 8.Rate Chart Information
 
-![Image of Rate Chart form ](/Esnaps/RtChrt_Info.png)
+![Image of Rate Chart form ](/Form_Images/RtChrt_Info.png)
 
 9.Item_Master
 
