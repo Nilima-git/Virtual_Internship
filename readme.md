@@ -1,10 +1,10 @@
-# **PYQT5 and Python-3 Examples**
- This was done during the internship in the Months of Sept-Nov 2020.
+# **Design Forms using PyQt5 in Python**
+ This work was done during the virtual internship in the Months of Sept-Nov 2020 with Electroveda Infotech Pune
 
-1.Company
+1.Login
 
-    there is issue ...............
-i had solve this using [Google](https://doc.qt.io/qt-5/layout.html)
+After successful installation of Qt Designer the Login is the first form i was design.
+For installation i had taken the taken the reference from this [link](https://www.programmersought.com/article/5165681028/)
 
-![Image of Company form ](/Esnaps/Company.png)
+![Image of login form ](/Esnaps/Login.png)
 
