@@ -4,7 +4,11 @@
 1.Login
 
 After successful installation of Qt Designer the Login is the first form i was design.
-For installation i had taken the taken the reference from this [link](https://www.programmersought.com/article/5165681028/)
+For installation i had taken the reference from this [link](https://www.programmersought.com/article/5165681028/)
 
 ![Image of login form ](/Esnaps/Login.png)
 
+2. Demo Company
+
+After designing this form i learn different properties of Qt Designer
+![Image of login form ](/Esnaps/Company.png)
