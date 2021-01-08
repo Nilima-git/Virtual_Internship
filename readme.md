@@ -8,7 +8,7 @@ For installation i had taken the reference from this [link](https://www.programm
 
 ![Image of login form ](/Esnaps/Login.png)
 
-2. Demo Company
+2.Demo Company
 
 After designing this form i learn different properties of Qt Designer
 
