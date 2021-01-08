@@ -55,3 +55,15 @@ For learning this new properties i refer this
 11.Transporter Information
 
 ![Image of Item_Master form ](/Esnaps/Transporter_info.png)
+
+12.Cumulative sale
+
+![Image of Item_Master form ](/Esnaps/Cumulative_sale.png)
+
+13.Bank Information
+
+![Image of Item_Master form ](/Esnaps/Bank_info.png)
+
+14.Nominee Information
+
+![Image of Nominee Information Form ](/Esnaps/Nominee_info.png)
