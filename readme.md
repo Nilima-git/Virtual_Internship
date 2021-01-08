@@ -12,20 +12,22 @@ For installation i had taken the reference from this [link](https://www.programm
 
 After designing this form i learn different properties of Qt Designer
 
-![Image of login form ](/Esnaps/Company.png)
+![Image of Demo Company form ](/Esnaps/Company.png)
 
 3.Demo Company
 
-![Image of login form ](/Esnaps/Company_demo1.png)
+![Image of Demo Company form ](/Esnaps/Company_demo1.png)
 
 4.Route Information
 
 From this form i learn the properties of GroupBox like Border and Border Colour
 
-![Image of login form ](/Esnaps/Route_info.png)
+![Image of Route Information form ](/Esnaps/Route_info.png)
 
 5. Addition to Milk Rate
 
-![Image of login form ](/Esnaps/Addition.png)
+![Image of Addition form ](/Esnaps/Addition.png)
 
+6. Deduction to Milk Bill
 
+![Image of Deduction form ](/Esnaps/Deduction.png)
