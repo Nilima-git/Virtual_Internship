@@ -34,7 +34,7 @@ From this form i learn the properties of GroupBox like Border and Border Colour
 
 7.Centre Information
 
-![Image of Centre Info form ](/Esnaps/centre.png)
+![Image of Centre Info form ](/Esnaps/Centre.png)
 
 8.RtChrt Information
 
