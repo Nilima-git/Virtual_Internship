@@ -44,3 +44,8 @@ From this form i learn the properties of GroupBox like Border and Border Colour
 
 ![Image of Item_Master form ](/Esnaps/Item_master.png)
 
+10.Collection Form
+
+From this form i learn the uses of Tab Widgets and Table Widget
+For learning this new properties i was refer this 
+ [link](https://doc.qt.io/archives/qt-4.8/designer-using-containers.html)
