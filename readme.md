@@ -17,3 +17,9 @@ After designing this form i learn different properties of Qt Designer
 3.Demo Company
 
 ![Image of login form ](/Esnaps/Company_demo1.png)
+
+4.Route Information
+
+From this form i learn all the properties of GroupBox
+
+![Image of login form ](/Esnaps/Route_info.png)
