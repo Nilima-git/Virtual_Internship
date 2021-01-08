@@ -24,10 +24,18 @@ From this form i learn the properties of GroupBox like Border and Border Colour
 
 ![Image of Route Information form ](/Esnaps/Route_info.png)
 
-5. Addition to Milk Rate
+5.Addition to Milk Rate
 
 ![Image of Addition form ](/Esnaps/Addition.png)
 
-6. Deduction to Milk Bill
+6.Deduction to Milk Bill
 
 ![Image of Deduction form ](/Esnaps/Deduction.png)
+
+7.Centre Information
+
+![Image of Centre Info form ](/Esnaps/centre.png)
+
+8.RtChrt Information
+
+![Image of Centre Info form ](/Esnaps/RtChrt_Info.png)
