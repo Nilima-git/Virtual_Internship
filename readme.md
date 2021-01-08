@@ -23,3 +23,9 @@ After designing this form i learn different properties of Qt Designer
 From this form i learn the properties of GroupBox like Border and Border Colour
 
 ![Image of login form ](/Esnaps/Route_info.png)
+
+5. Addition to Milk Rate
+
+![Image of login form ](/Esnaps/Addition.png)
+
+
