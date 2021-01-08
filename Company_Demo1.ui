@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>748</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>671</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(131, 181, 255);
+background-color: rgb(160, 214, 255);
+background-color: rgb(189, 255, 210);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QGroupBox" name="cust_comp_details">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>601</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Customer Company  Details</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <widget class="QLabel" name="Cust_name">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>27</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Customer Name:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Addr_3">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>47</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Addr:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="A_P">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>77</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>A/P:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Taluka">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>97</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Taluka:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Jurisdiction">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>118</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Jurisdiction:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Phone">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>137</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Phone:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="custname_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>27</y>
+        <width>471</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Addr1_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>47</y>
+        <width>471</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="A_P_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>76</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Taluka_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>97</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Jurisdiction_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>117</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Phone_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>137</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Village">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>77</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Village:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Fax">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>137</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fax:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Village_text">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>77</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Fax_text">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>137</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Dist">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>97</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Dist:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="email_id">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>117</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>EmailID:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Dist_text">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>97</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Email1_text">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>117</y>
+        <width>251</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="City">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>77</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>City:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="City_text">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>77</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="State">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>96</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>State:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Cell">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>137</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Cell:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="State_text">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>97</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Cell_text">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>137</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Lic_Key_no">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>157</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Lic. Key No.:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LicKeyNo_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>163</y>
+        <width>471</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="Demo_Comp">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>20</y>
+       <width>181</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(85, 85, 255);</string>
+     </property>
+     <property name="text">
+      <string>Demo Company</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="Comp_part_detail">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>250</y>
+       <width>521</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Company Partner Details</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <widget class="QLabel" name="comp_code">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Company Code:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>53</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Name:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="F_M_L_name">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>80</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Name:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comp_code_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Fname_text">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>60</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="F_M_L_text">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>441</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Mname_text">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>60</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="PAN">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>PAN:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Adhar">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>140</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Adhar:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Email">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>160</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Email:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="PAN_text">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>121</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Adhar_text">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>140</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Email2_text">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>160</y>
+        <width>441</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Ph">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>120</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ph.:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="OtherReg">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>140</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Other Reg:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Ph_text">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>120</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Other_Reg_text">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>140</y>
+        <width>211</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Code">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>20</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Code:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Code_text">
+      <property name="geometry">
+       <rect>
+        <x>442</x>
+        <y>20</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Lname_text">
+      <property name="geometry">
+       <rect>
+        <x>372</x>
+        <y>60</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Fname">
+      <property name="geometry">
+       <rect>
+        <x>76</x>
+        <y>40</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>First Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Mname">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>40</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Middle Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Lname">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>40</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Last Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Addr_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Addr:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Addr_text_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>100</y>
+        <width>441</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Mob">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>116</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Mob(+91):</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Mob_text">
+      <property name="geometry">
+       <rect>
+        <x>372</x>
+        <y>120</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="create_new_DB">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>190</y>
+        <width>211</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(85, 85, 255);</string>
+      </property>
+      <property name="text">
+       <string>Creating New DataBase</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="Create_comp">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>490</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(177, 177, 177);</string>
+     </property>
+     <property name="text">
+      <string>Create Company</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Prod_info">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>490</y>
+       <width>81</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(177, 177, 177);</string>
+     </property>
+     <property name="text">
+      <string>Product Info</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Exit">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>490</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(177, 177, 177);</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>748</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
