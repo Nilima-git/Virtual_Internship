@@ -67,3 +67,19 @@ For learning this new properties i refer this
 14.Nominee Information
 
 ![Image of Nominee Information Form ](/Esnaps/Nominee_info.png)
+
+15.Deduction Master
+
+![Image of Deduction Master Form ](/Esnaps/Deduction_master.png)
+
+16.Item Return
+
+![Image of Deduction Master Form ](/Esnaps/Item_return.png)
+
+17.Payment Received
+
+![Image of Payment Received Form ](/Esnaps/Payment_received.png)
+
+18.Plant To Goadown
+
+![Image of Payment Received Form ](/Esnaps/PlantToGoadown.png)
