@@ -51,3 +51,7 @@ For learning this new properties i refer this
  [link](https://doc.qt.io/archives/qt-4.8/designer-using-containers.html)
 
  ![Image of Item_Master form ](/Esnaps/Collection.png)
+
+11.Transporter Information
+
+![Image of Item_Master form ](/Esnaps/Transporter_info.png)
