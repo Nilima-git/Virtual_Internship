@@ -1,5 +1,5 @@
 # **Design Forms using PyQt5 in Python**
- This work was done during the virtual internship in the Months of Sept-Nov 2020 with Electroveda Infotech Pune
+ This work was done during the virtual internship in the Months of Sept-Nov 2020 with Electrofield Infotech Pune
 
 1.Login
 
